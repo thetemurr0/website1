@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+section {
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.text h1 {
+    color:  hsl(300, 43%, 22%);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 900;
+}
+
+.text p {
+    color: hsl(303, 10%, 53%);
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 90%;
+    margin: 25px auto 35px;
+    text-align: center;
+}
+
+.rate {
+    width: 90%;
+    height: 4.2rem;
+    background-color: hsl(300, 29%, 92%);
+    text-align: center;
+    margin: 20px auto 15px;
+    border-radius: 6px;
+}
+
+img {
+    margin-top: 12px;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+}
+
+.rate p {
+    color: hsl(300, 43%, 22%);
+    font-size: 0.8rem;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+.name-colton, .name-irene, .name-anne{
+    width: 90%;
+    height: 11.3rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    margin:15px  auto;
+}
+
+.first img {
+    width: 37px;
+    border-radius: 50%;
+    margin-left: 19px;
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-items {
+    margin-top: 15px;
+}
+
+h4 {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 2px;
+}
+
+.comment {
+    color:  hsl(300, 7%, 84%);
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    width: 90%;
+    margin: 20px auto 9px;
+    height: auto;
+}
+
+.bg-1 {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.bg-2 {
+    position: absolute;
+    bottom: -650px;
+    right: -20px;
+}
+
+@media only screen and (min-width:992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    section {
+        height: 100vh;
+        overflow: hidden;
+        background-color: #fff;
+        background: url('./images/bg-pattern-top-desktop.png') top left, url(./images/bg-pattern-bottom-desktop.png) bottom right;
+        background-repeat: no-repeat;
+    }   
+
+    .main-half {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .text {
+        flex: 1;
+        margin-top: 45px;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        width: 50%;
+        margin: 45px auto 10px;
+        text-align: start;
+    }
+
+    .text p {
+        width: 50%;
+        margin: 10px auto 20px;
+        text-align: start;
+    }
+
+    .rating {
+        flex: 1;
+        margin-top: 45px;
+    }
+
+    .rate {
+        display: flex;
+        height: 2.7rem;
+        background-color: hsl(300, 29%, 92%);
+        width: 55%;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .rate img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .stars {
+        margin-right: 10px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    
+    }
+
+    .rate p {
+        margin: auto 15px;
+
+    }
+
+    .rate1 {
+        margin-left: 10px;
+    }
+
+    .rate2 {
+        margin-left: 45px;
+    }
+
+    .rate3 {
+        margin-left: 85px;
+    }
+
+    .customers {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin: 30px auto 65px;
+    }
+
+    .first {
+        margin-right: 25px;
+    }
+
+    .name-irene {
+        margin-top: 40px;
+    }
+
+    .name-anne {
+        margin-top: 70px;
+    }
+
+    .comment {
+        text-align: start;
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
